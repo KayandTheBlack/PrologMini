@@ -1,0 +1,85 @@
+c PicoSAT SAT Solver Version 960
+c Copyright (c) 2006 - 2014 Armin Biere JKU Linz
+c gcc -Wall -Wextra -DNDEBUG -O3
+c
+c using 2 as default phase
+c
+c parsing infile.cnf
+c parsed header 'p cnf 1780 105126'
+c initialized 1780 variables
+c found 105126 non trivial clauses
+c
+c random number generator seed 0
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c s   0.0   0.0   763  57.7 21023   377     0     0   0.0   2.3 
+c 
+c initial reduction limit 1000 clauses
+c 
+c +   0.0  19.0   763  87.2 21023   477    99  1100  12.5   2.4 
+c R   0.0  19.0   763  87.2 21023   478   100  1100  12.8   2.4 
+c +   0.0  20.0   763  92.1 21023   598   219  1210  12.2   2.4 
+c +   0.0  19.9   763  95.0 21023   744   364  1331  13.9   2.4 
+c R   0.0  19.6   763  95.6 21023   781   401  1331  14.4   2.4 
+c +   0.0  19.4   762  96.9 21023   920   537  1464  11.7   2.5 
+c R   0.1  19.6   762  97.0 21023   939   556  1464  12.4   2.5 
+c +   0.1  20.3   762  99.0 21023  1132   748  1610  11.4   2.5 
+c R   0.1  20.1   762  99.0 21023  1243   859  1610  13.7   2.6 
+c R   0.1  21.2   761  99.4 21023  1383   997  1610  16.7   2.6 
+c +   0.1  21.3   761  99.4 21023  1388  1002  1771  15.9   2.6 
+c +   0.1  21.2   760  99.6 21023  1697  1308  1948   9.3   2.7 
+c R   0.1  21.2   760  99.6 21023  1713  1324  1948   8.7   2.7 
+c R   0.1  20.5   760  99.9 21023  2016  1623  1948  10.4   2.8 
+c +   0.1  20.7   760  99.9 21023  2070  1674  2142   9.5   2.8 
+c R   0.1  22.6   759  99.9 21023  2457  2045  2142   8.6   2.9 
+c +   0.1  22.3   759  99.9 21023  2521  2104  2356   7.2   2.9 
+c R   0.1  21.9   759 100.0 21023  2760  2341  2356   9.8   2.9 
+c +   0.1  21.9   759 100.0 20998  3066  1457  2591   7.6   2.7 
+c R   0.1  21.4   759 100.0 20998  3565  1950  2591   8.7   2.8 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+c +   0.1  21.1   759 100.0 20998  3725  2110  2850  11.3   2.8 
+c +   0.1  19.9   759 100.0 20998  4522  1476  3135   7.8   2.6 
+c R   0.1  19.2   758 100.0 20998  5150  2102  3135   4.3   2.7 
+c s   0.1  19.0   742 100.0 20937  5310  2246  3135   6.4   2.7 
+c R   0.1  18.9   742 100.0 20937  5455  2390  3135   7.8   2.8 
+c +   0.1  18.9   742 100.0 20937  5502  2434  3448   7.3   2.8 
+c R   0.2  18.1   742 100.0 20937  6255  3180  3448   9.6   2.9 
+c +   0.2  17.7   742 100.0 20937  6668  1861  3792   6.5   2.6 
+c R   0.2  17.4   685 100.0 20937  7015  2201  3792   7.1   2.7 
+c R   0.2  17.3   685 100.0 20937  7316  2502  3792   5.6   2.7 
+c R   0.2  16.7   628 100.0 20937  8016  3192  3792  11.5   2.8 
+c +   0.2  16.7   628 100.0 20937  8078  3254  4171   9.4   2.8 
+c R   0.2  16.6   628 100.0 20937  8321  3496  4171  11.5   2.9 
+c R   0.2  16.4   571 100.0 20937  8625  3795  4171  13.6   2.9 
+c 0   0.2  16.0   219 100.0 20937  8992  4140  4171  18.4   3.0 
+c 
+c  seconds     variables   original    learned     agility
+c         level        used      conflicts    limit          MB
+c 
+s UNSATISFIABLE
+c
+c 13 iterations
+c 51 restarts
+c 393 failed literals
+c 8992 conflicts
+c 13700 decisions
+c 1561 fixed variables
+c 175491 learned literals
+c 28.8% deleted literals
+c 1333888 propagations
+c 8262575 visits
+c 100.0% variables used
+c 0.2 seconds in library
+c 6.3 megaprops/second
+c 38.9 megavisits/second
+c probing 0.0 seconds 4%
+c 2 simplifications
+c 3 reductions
+c 4.6 MB recycled
+c 5.9 MB maximally allocated
+c 0.2 seconds total run time
